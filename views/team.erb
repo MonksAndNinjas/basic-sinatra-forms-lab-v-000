@@ -6,7 +6,9 @@
  </head>
  <body>
 
-   <h1><%= @team.name %></h1>
+   <% @team.each do |name| %>
+    <h1><%= name </h1>
+   <% end %>
 
  </body>
 </html>
