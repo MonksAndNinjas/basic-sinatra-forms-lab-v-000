@@ -9,6 +9,6 @@ class App < Sinatra::Base
 
   post '/newteam' do
     @team = params
-    
+    puts @team
   end
 end
