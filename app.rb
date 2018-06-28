@@ -8,7 +8,7 @@ class App < Sinatra::Base
   end
 
   post '/newteam' do
-    params
-
+    @team = params
+    
   end
 end
